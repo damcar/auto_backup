@@ -34,4 +34,10 @@ Automatic backup for all such configured databases can then be scheduled as foll
         'views/backup_view.xml',
         'data/backup_data.xml',
     ],
+    'external_dependencies': {
+        'python': [
+            'cryptography',
+            'paramiko',
+        ],
+    },
 }
